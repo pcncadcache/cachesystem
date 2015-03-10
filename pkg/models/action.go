@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/ngaut/zkhelper"
-	"github.com/wandoulabs/codis/pkg/utils"
+	"github.com/pcncadcache/cachesystempkg/utils"
 
 	"github.com/juju/errors"
 	"github.com/ngaut/go-zookeeper/zk"

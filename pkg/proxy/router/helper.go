@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wandoulabs/codis/pkg/utils"
+	"github.com/pcncadcache/cachesystempkg/utils"
 
-	"github.com/wandoulabs/codis/pkg/models"
-	"github.com/wandoulabs/codis/pkg/proxy/group"
-	"github.com/wandoulabs/codis/pkg/proxy/parser"
-	"github.com/wandoulabs/codis/pkg/proxy/router/topology"
+	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystempkg/proxy/group"
+	"github.com/pcncadcache/cachesystempkg/proxy/parser"
+	"github.com/pcncadcache/cachesystempkg/proxy/router/topology"
 
 	log "github.com/ngaut/logging"
 

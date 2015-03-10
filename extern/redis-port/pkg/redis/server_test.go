@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/testing/assert"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/testing/assert"
 )
 
 type testHandler struct {

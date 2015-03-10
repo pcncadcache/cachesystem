@@ -6,9 +6,9 @@ package service
 import (
 	"math"
 
-	"github.com/wandoulabs/codis/extern/redis-binlog/pkg/binlog"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/rdb"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/redis"
+	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/binlog"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
 )
 
 // SELECT db

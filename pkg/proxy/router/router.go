@@ -16,15 +16,15 @@ import (
 	"syscall"
 	"time"
 
-	topo "github.com/wandoulabs/codis/pkg/proxy/router/topology"
+	topo "github.com/pcncadcache/cachesystempkg/proxy/router/topology"
 
 	"bytes"
 
-	"github.com/wandoulabs/codis/pkg/models"
-	"github.com/wandoulabs/codis/pkg/proxy/cachepool"
-	"github.com/wandoulabs/codis/pkg/proxy/group"
-	"github.com/wandoulabs/codis/pkg/proxy/parser"
-	"github.com/wandoulabs/codis/pkg/proxy/redispool"
+	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystempkg/proxy/cachepool"
+	"github.com/pcncadcache/cachesystempkg/proxy/group"
+	"github.com/pcncadcache/cachesystempkg/proxy/parser"
+	"github.com/pcncadcache/cachesystempkg/proxy/redispool"
 
 	"container/list"
 

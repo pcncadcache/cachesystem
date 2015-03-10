@@ -14,6 +14,7 @@ def start(filename="config.yml"):
         else:
             print("Unknown instance name %s" % name)
 def stop():
+    
     with settings(warn_only=True):
         # local("kill $(pgrep cache-proxy)")
         local("kill $(pgrep cache-server)")

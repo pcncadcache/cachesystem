@@ -13,9 +13,9 @@ import (
 	"time"
 
 	redigo "github.com/garyburd/redigo/redis"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/io/ioutils"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/log"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/rdb"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/io/ioutils"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb"
 )
 
 func openRedisConn(target string) redigo.Conn {

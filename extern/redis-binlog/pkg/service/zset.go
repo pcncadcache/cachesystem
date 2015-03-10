@@ -4,8 +4,8 @@
 package service
 
 import (
-	"github.com/wandoulabs/codis/extern/redis-binlog/pkg/binlog"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/redis"
+	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/binlog"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
 )
 
 // ZGETALL key

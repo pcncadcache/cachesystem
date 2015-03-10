@@ -6,7 +6,7 @@ package service
 import (
 	"testing"
 
-	"github.com/wandoulabs/codis/extern/redis-binlog/pkg/binlog"
+	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/binlog"
 )
 
 func TestSelect(t *testing.T) {

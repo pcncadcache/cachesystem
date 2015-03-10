@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/errors"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/trace"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/trace"
 )
 
 const (

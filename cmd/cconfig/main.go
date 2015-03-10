@@ -11,8 +11,8 @@ import (
 	"syscall"
 
 	"github.com/c4pt0r/cfg"
-	"github.com/wandoulabs/codis/pkg/env"
-	"github.com/wandoulabs/codis/pkg/utils"
+	"github.com/pcncadcache/cachesystempkg/env"
+	"github.com/pcncadcache/cachesystempkg/utils"
 
 	"net/http"
 	_ "net/http/pprof"

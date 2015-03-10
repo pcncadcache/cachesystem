@@ -6,7 +6,7 @@ package pipe
 import (
 	"os"
 
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
 )
 
 type rfileBuffer struct {

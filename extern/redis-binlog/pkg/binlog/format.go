@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
 )
 
 func Num64(i interface{}) interface{} {

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wandoulabs/codis/extern/redis-binlog/pkg/binlog"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/errors"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/libs/log"
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/redis"
+	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/binlog"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
 )
 
 type conn struct {

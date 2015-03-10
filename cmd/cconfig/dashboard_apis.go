@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wandoulabs/codis/pkg/models"
-	"github.com/wandoulabs/codis/pkg/utils"
+	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystempkg/utils"
 
 	"github.com/go-martini/martini"
 	"github.com/juju/errors"

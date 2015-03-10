@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/wandoulabs/codis/extern/redis-port/pkg/redis"
+	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
 )
 
 // PING

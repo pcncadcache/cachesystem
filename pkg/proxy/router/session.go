@@ -12,7 +12,7 @@ import (
 
 	"github.com/juju/errors"
 	log "github.com/ngaut/logging"
-	"github.com/wandoulabs/codis/pkg/proxy/parser"
+	"github.com/pcncadcache/cachesystempkg/proxy/parser"
 )
 
 type session struct {
