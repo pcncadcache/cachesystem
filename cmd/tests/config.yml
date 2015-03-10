@@ -1,0 +1,15 @@
+server.alpha:
+    maxmemory: 32 #mb
+    port: 6801
+
+server.beta:
+    maxmemory: 32 #mb
+    port: 6802
+
+server.sigma:
+    maxmemory: 64 #mb
+    port: 6803
+
+server.theta:
+    maxmemory: 64 #mb
+    port: 6804

@@ -1,0 +1,39 @@
+
+<html>
+  <head>
+    <title>缓存控制台</title>
+    <link rel=stylesheet href=shell.css>
+    <link href="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">缓存控制台</a>
+          </div>
+          <div class="navbar-collapse collapse"> 
+            <ul class="nav navbar-nav navbar-right"> 
+              <li><a href=/admin>缓存管理系统</a></li>
+              <li><a href=/slots target=_blank>切片管理</a></li> 
+            </ul> 
+          </div> 
+        </div>
+      </div>
+      <div class="container">
+        <div id='log'>
+          <div class='line notification'>
+          <h4>欢迎来到缓存控制台，请首先使用CONNECT连接缓存服务器</h4>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id='toolbar'>
+          <input id='input' spellcheck='false'>
+        </div>
+      </div>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src='/json2.js' type='application/x-javascript'></script>
+    <script src='/shell.js' type='application/x-javascript'></script>
+  </body>
+</html>

@@ -84,6 +84,18 @@ func jsonRetSucc() (int, string) {
 	})
 }
 
+func jsonRedisRetFail(err string) (int, string) {
+	return jsonRet(map[string]interface{}{
+		"error": err,
+	})
+}
+
+func jsonRedisRet(response string) (int, string) {
+	return jsonRet(map[string]interface{}{
+		"response": response,
+	})
+}
+
 func getAllProxyOps() int64 {
 	conn := CreateZkConn()
 	defer conn.Close()
@@ -143,6 +155,10 @@ func getProxySpeedChan() <-chan int64 {
 
 func pageSlots(r render.Render) {
 	r.HTML(200, "slots", nil)
+}
+
+func pageShell(r render.Render) {
+	r.HTML(200, "shell", nil)
 }
 
 func createDashboardNode() error {
@@ -246,8 +262,9 @@ func runDashboard(addr string, httpLogFile string) {
 
 	m.Get("/api/action/gc", apiActionGC)
 	m.Get("/api/force_remove_locks", apiForceRemoveLocks)
-
+	m.Get("/eval/:command", evalRedisCommand)
 	m.Get("/slots", pageSlots)
+	m.Get("/shell", pageShell)
 	m.Get("/", func(r render.Render) {
 		r.Redirect("/admin")
 	})

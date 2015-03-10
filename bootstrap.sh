@@ -1,5 +1,5 @@
 #!/bin/sh
-
+export PATH=/usr/local/Cellar/python/2.7.6_1/bin:$PATH:/usr/local/go/bin
 make clean
 
 echo "downloading dependcies, it may take a few minutes..."

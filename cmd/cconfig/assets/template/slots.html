@@ -15,26 +15,26 @@
 <script type="text/template" id="slot-info-tmpl">
 <table class="table table-bordered">
   <tr>
-    <td>Slot ID</td><td><%= id %></td>
+    <td>切片 ID</td><td><%= id %></td>
   </tr>
   <tr>
-    <td>Product</td><td><%= product_name %></td>
+    <td>产品名称</td><td><%= product_name %></td>
   </tr>
   <tr>
-    <td>Server Grpup</td><td><a href="/server_groups#<%= group_id %>">group_<%= group_id %></a></td>
+    <td>集群组</td><td><a href="/server_groups#<%= group_id %>">group_<%= group_id %></a></td>
   </tr>
   <tr>
     <td>Keys</td><td><%= keys %></td>
   </tr>
 
   <tr>
-    <td>Status</td><td><b><%= state.status %></b></td>
+    <td>状态</td><td><b><%= state.status %></b></td>
   </tr>
    <tr>
-    <td> Migrate From</td><td><a href="/server_groups#group-<%= state.migrate_status.from %>">group_<%= state.migrate_status.from %></a></td>
+    <td> 迁移源 </td><td><a href="/server_groups#group-<%= state.migrate_status.from %>">group_<%= state.migrate_status.from %></a></td>
    </tr>
    <tr>
-    <td> Migrate To</td><td><a href="/server_groups#<%= state.migrate_status.to %>">group_<%= state.migrate_status.to %></a></td>
+    <td> 迁移目的地 </td><td><a href="/server_groups#<%= state.migrate_status.to %>">group_<%= state.migrate_status.to %></a></td>
     </tr>
   <tr>
     <td>Last Op Ts</td><td><%= new Date(state.last_op_ts * 1000) %></td>
@@ -42,7 +42,7 @@
 </table>
 </script>
 <body>
-  <h4>Slots Status</h4>
+  <h4>切片状态</h4>
   <hr>
   <div class="row">
     <div class="col-md-4">
