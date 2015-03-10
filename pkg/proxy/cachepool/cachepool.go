@@ -9,7 +9,7 @@ import (
 
 	"container/list"
 	"github.com/juju/errors"
-	"github.com/pcncadcache/cachesystempkg/proxy/redispool"
+	"github.com/pcncadcache/cachesystem/pkg/proxy/redispool"
 )
 
 type SimpleConnectionPool struct {

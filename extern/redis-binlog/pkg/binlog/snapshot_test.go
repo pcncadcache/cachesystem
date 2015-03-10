@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/rdb"
 )
 
 func TestSnapshot(t *testing.T) {

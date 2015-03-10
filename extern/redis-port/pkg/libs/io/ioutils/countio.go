@@ -6,7 +6,7 @@ package ioutils
 import (
 	"io"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/atomic2"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/atomic2"
 )
 
 type CountReader struct {

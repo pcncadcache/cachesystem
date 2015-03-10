@@ -3,7 +3,7 @@
 
 package assert
 
-import "github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
+import "github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/log"
 
 func Must(b bool) {
 	if b {

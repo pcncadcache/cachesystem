@@ -13,7 +13,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/ngaut/go-zookeeper/zk"
 	"github.com/ngaut/zkhelper"
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 
 	"sync/atomic"
 

@@ -3,7 +3,7 @@
 
 package leveldb
 
-import "github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/bytesize"
+import "github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/bytesize"
 
 type Config struct {
 	BlockSize       int `toml:"block_size"`

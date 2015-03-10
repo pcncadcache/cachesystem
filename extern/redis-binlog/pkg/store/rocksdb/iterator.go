@@ -4,8 +4,8 @@
 package rocksdb
 
 import (
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/extern/gorocks"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/extern/gorocks"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
 )
 
 type Iterator struct {

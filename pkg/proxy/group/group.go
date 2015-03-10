@@ -4,7 +4,7 @@
 package group
 
 import (
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 
 	log "github.com/ngaut/logging"
 )

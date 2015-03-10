@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/store"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/store"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/rdb"
 )
 
 var (

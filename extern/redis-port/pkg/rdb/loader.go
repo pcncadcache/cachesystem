@@ -10,8 +10,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb/digest"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/rdb/digest"
 )
 
 type Loader struct {

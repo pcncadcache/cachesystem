@@ -3,7 +3,7 @@
 
 package service
 
-import "github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
+import "github.com/pcncadcache/cachesystem/extern/redis-port/pkg/redis"
 
 // LINDEX key index
 func (h *Handler) LIndex(arg0 interface{}, args [][]byte) (redis.Resp, error) {

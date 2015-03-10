@@ -36,13 +36,13 @@ Codis is production-ready and is widely used by [wandoujia.com](http://wandoujia
 
 ## Tutorial
 
-[简体中文](https://github.com/pcncadcache/cachesystemblob/master/doc/tutorial_zh.md)  
-[English](https://github.com/pcncadcache/cachesystemblob/master/doc/tutorial_en.md)
+[简体中文](https://github.com/pcncadcache/cachesystem/blob/master/doc/tutorial_zh.md)  
+[English](https://github.com/pcncadcache/cachesystem/blob/master/doc/tutorial_en.md)
 
 ## FAQ
 
-[简体中文](https://github.com/pcncadcache/cachesystemblob/master/doc/FAQ_zh.md)  
-[English (WIP) ](https://github.com/pcncadcache/cachesystemblob/master/doc/FAQ_en.md)
+[简体中文](https://github.com/pcncadcache/cachesystem/blob/master/doc/FAQ_zh.md)  
+[English (WIP) ](https://github.com/pcncadcache/cachesystem/blob/master/doc/FAQ_en.md)
 
 ## Performance (Benchmark)
 Twemproxy:  
@@ -57,12 +57,12 @@ Result:
 
 
 
-[简体中文](https://github.com/pcncadcache/cachesystemblob/master/doc/benchmark_zh.md)  
+[简体中文](https://github.com/pcncadcache/cachesystem/blob/master/doc/benchmark_zh.md)  
 English (WIP)
 
 ## For Java users who want to support HA
 
-[Jodis \(HA Codis Connection Pool based on Jedis\)] (https://github.com/pcncadcache/cachesystemtree/master/extern/jodis)
+[Jodis \(HA Codis Connection Pool based on Jedis\)] (https://github.com/pcncadcache/cachesystem/tree/master/extern/jodis)
 
 ## Architecture
 

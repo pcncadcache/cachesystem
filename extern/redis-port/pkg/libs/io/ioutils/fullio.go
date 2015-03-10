@@ -6,7 +6,7 @@ package ioutils
 import (
 	"io"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
 )
 
 func ReadFull(r io.Reader, p []byte) (int, error) {

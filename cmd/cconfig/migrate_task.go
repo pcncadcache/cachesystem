@@ -6,7 +6,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 
 	"github.com/juju/errors"
 

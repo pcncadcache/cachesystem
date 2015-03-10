@@ -9,7 +9,7 @@ import (
 
 	"github.com/docopt/docopt-go"
 	log "github.com/ngaut/logging"
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 )
 
 // codis redis instance manage tool

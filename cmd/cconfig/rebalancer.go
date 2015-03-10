@@ -11,8 +11,8 @@ import (
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
 	"github.com/nu7hatch/gouuid"
-	"github.com/pcncadcache/cachesystempkg/models"
-	"github.com/pcncadcache/cachesystempkg/utils"
+	"github.com/pcncadcache/cachesystem/pkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/utils"
 )
 
 type NodeInfo struct {

@@ -6,8 +6,8 @@ package binlog
 import (
 	"bytes"
 
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/store"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/store"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/rdb"
 )
 
 type binlogIterator struct {

@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/io/ioutils"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/io/ioutils"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/log"
 )
 
 type decoder struct {

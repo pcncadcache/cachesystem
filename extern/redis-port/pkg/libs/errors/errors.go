@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/trace"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/trace"
 )
 
 var TraceEnabled = true

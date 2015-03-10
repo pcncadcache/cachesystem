@@ -6,8 +6,8 @@ package bytesize
 import (
 	"testing"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/testing/assert"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/testing/assert"
 )
 
 func TestBytesize(t *testing.T) {

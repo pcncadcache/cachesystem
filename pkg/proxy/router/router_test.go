@@ -15,7 +15,7 @@ import (
 	"github.com/juju/errors"
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 )
 
 var (

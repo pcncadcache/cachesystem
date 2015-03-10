@@ -4,8 +4,8 @@
 package service
 
 import (
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/binlog"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/binlog"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/redis"
 )
 
 // HGETALL key

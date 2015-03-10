@@ -8,9 +8,9 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/bytesize"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/io/ioutils"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/bytesize"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/io/ioutils"
 )
 
 var (

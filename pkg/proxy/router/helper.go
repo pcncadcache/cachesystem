@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pcncadcache/cachesystempkg/utils"
+	"github.com/pcncadcache/cachesystem/pkg/utils"
 
-	"github.com/pcncadcache/cachesystempkg/models"
-	"github.com/pcncadcache/cachesystempkg/proxy/group"
-	"github.com/pcncadcache/cachesystempkg/proxy/parser"
-	"github.com/pcncadcache/cachesystempkg/proxy/router/topology"
+	"github.com/pcncadcache/cachesystem/pkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/proxy/group"
+	"github.com/pcncadcache/cachesystem/pkg/proxy/parser"
+	"github.com/pcncadcache/cachesystem/pkg/proxy/router/topology"
 
 	log "github.com/ngaut/logging"
 

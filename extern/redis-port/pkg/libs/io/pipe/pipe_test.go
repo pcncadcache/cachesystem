@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/bytesize"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/io/ioutils"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/testing/assert"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/bytesize"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/io/ioutils"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/testing/assert"
 )
 
 func openPipe(t *testing.T, fileName string) (Reader, Writer) {

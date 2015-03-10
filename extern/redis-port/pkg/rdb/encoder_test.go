@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/counter"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/io/ioutils"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/testing/assert"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/counter"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/io/ioutils"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/testing/assert"
 )
 
 func toString(text string) String {

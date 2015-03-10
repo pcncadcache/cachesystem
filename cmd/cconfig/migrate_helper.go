@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 
 	"github.com/garyburd/redigo/redis"
 	_ "github.com/juju/errors"

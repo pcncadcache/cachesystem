@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/trace"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/trace"
 )
 
 func Fatalf(t *testing.T, format string, args ...interface{}) {

@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/pcncadcache/cachesystempkg/proxy/router"
-	"github.com/pcncadcache/cachesystempkg/utils"
+	"github.com/pcncadcache/cachesystem/pkg/proxy/router"
+	"github.com/pcncadcache/cachesystem/pkg/utils"
 
 	"github.com/docopt/docopt-go"
 	log "github.com/ngaut/logging"

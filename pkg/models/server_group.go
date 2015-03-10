@@ -12,7 +12,7 @@ import (
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
 
-	"github.com/pcncadcache/cachesystempkg/utils"
+	"github.com/pcncadcache/cachesystem/pkg/utils"
 
 	"github.com/juju/errors"
 )

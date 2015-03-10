@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/rdb"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/rdb"
 )
 
 func hdelall(t *testing.T, db uint32, key string, expect int64) {

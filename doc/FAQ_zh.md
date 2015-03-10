@@ -75,7 +75,7 @@ CAS 暂时不支持, 目前只支持eval的方式来跑lua脚本，需要配合T
 
 ###现有redis集群上有上T的数据，如何迁移到Codis上来？
 
-为了提高 Codis 推广和部署上的效率，我们为数据迁移提供了一个叫做 [redis-port](https://github.com/pcncadcache/cachesystemtree/master/extern/redis-port) 的命令行工具，它能够：
+为了提高 Codis 推广和部署上的效率，我们为数据迁移提供了一个叫做 [redis-port](https://github.com/pcncadcache/cachesystem/tree/master/extern/redis-port) 的命令行工具，它能够：
 
 + 静态分析 RDB 文件，包括解析以及恢复 RDB 数据到 redis
 + 从 redis 上 dump RDB 文件以及从 redis 和 codis 之间动态同步数据
@@ -106,7 +106,7 @@ CAS 暂时不支持, 目前只支持eval的方式来跑lua脚本，需要配合T
 + redis-port 本质是以 slave 的形式挂载到现有 redis 服务上去的
 
 	1. redis 会生成 RDB DUMP 文件给作为 slave 的 redis-port
-	2. redis-port 分析 RDB 文件，并拆分成 key-value 对，通过 [slotsrestore](https://github.com/pcncadcache/cachesystemblob/master/doc/redis_change_zh.md#slotsrestore-key1-ttl1-val1-key2-ttl2-val2-) 指令发给 codis
+	2. redis-port 分析 RDB 文件，并拆分成 key-value 对，通过 [slotsrestore](https://github.com/pcncadcache/cachesystem/blob/master/doc/redis_change_zh.md#slotsrestore-key1-ttl1-val1-key2-ttl2-val2-) 指令发给 codis
 	3. 迁移过程中发生的修改，redis 会将这些指令在 RDB DUMP 发送完成后，再发给 redis-port，而 redis-port 收到这些指令后不作处理，而直接转发给 Codis
 	
 + redis-port 处理还是很快的，参考：

@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/atomic2"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/io/ioutils"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/atomic2"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/io/ioutils"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/redis"
 )
 
 type cmdRestore struct {

@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/log"
 )
 
 type HandlerFunc func(arg0 interface{}, args ...[]byte) (Resp, error)

@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/testing/assert"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/testing/assert"
 )
 
 func TestDecodeInvalidRequests(t *testing.T) {

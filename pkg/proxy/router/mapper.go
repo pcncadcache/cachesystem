@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"hash/crc32"
 
-	"github.com/pcncadcache/cachesystempkg/models"
+	"github.com/pcncadcache/cachesystem/pkg/models"
 )
 
 const (

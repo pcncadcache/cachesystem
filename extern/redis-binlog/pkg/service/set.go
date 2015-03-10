@@ -3,7 +3,7 @@
 
 package service
 
-import "github.com/pcncadcache/cachesystemextern/redis-port/pkg/redis"
+import "github.com/pcncadcache/cachesystem/extern/redis-port/pkg/redis"
 
 // SADD key member [member ...]
 func (h *Handler) SAdd(arg0 interface{}, args [][]byte) (redis.Resp, error) {

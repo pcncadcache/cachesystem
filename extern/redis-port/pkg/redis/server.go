@@ -3,7 +3,7 @@
 
 package redis
 
-import "github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
+import "github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
 
 type Server struct {
 	t HandlerTable

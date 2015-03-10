@@ -13,13 +13,13 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/docopt/docopt-go"
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/binlog"
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/service"
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/store"
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/store/leveldb"
-	"github.com/pcncadcache/cachesystemextern/redis-binlog/pkg/store/rocksdb"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/errors"
-	"github.com/pcncadcache/cachesystemextern/redis-port/pkg/libs/log"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/binlog"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/service"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/store"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/store/leveldb"
+	"github.com/pcncadcache/cachesystem/extern/redis-binlog/pkg/store/rocksdb"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/errors"
+	"github.com/pcncadcache/cachesystem/extern/redis-port/pkg/libs/log"
 )
 
 var args struct {
